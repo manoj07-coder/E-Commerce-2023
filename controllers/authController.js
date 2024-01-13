@@ -1,5 +1,5 @@
 
 
-export const registerController = ()=>{
+export const registerController = async(req,res)=>{
     
 }
