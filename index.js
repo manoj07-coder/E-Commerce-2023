@@ -15,7 +15,6 @@ app.use(morgan('dev'))
 
 app.use('/api/v1/auth',authRoutes)
 
-
 const port = process.env.PORT
 
 app.get('/',(req,res)=>{
